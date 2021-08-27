@@ -1,2 +1,2 @@
 # game-mods
-Repository containing the files for my developed mods for various games.
+Repository containing the files for my personal mods for various games.
