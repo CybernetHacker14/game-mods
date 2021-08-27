@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="TunableCareerTrack" i="career_track" m="careers.career_tuning" n="StockBroker_Track1_StockBroker" s="12925940193312474236">
+  <T n="active_assignment_amount">0</T>
+    <T n="busy_time_situation_picker_tooltip">0x77D1D57E</T>
+  <T n="career_description">0x551fbb30</T>
+  <L n="career_levels">
+    	<T>10351398989585692693</T>
+		<T>10351398989585692694</T>
+		<T>10351398989585692695</T>
+		<T>10351398989585692688</T>
+		<T>10351398989585692689</T>
+		<T>10351398989585692690</T>
+		<T>10351398989585692691</T>
+		<T>10351398989585692700</T>
+		<T>10351398989585692701</T>
+		<T>9326753156011248543</T>
+		<T>9326753156011248542</T>
+		<T>9326753156011248541</T>
+		<T>9326753156011248540</T>
+		<T>9326753156011248539</T>
+		<T>9326753156011248538</T>
+		<T>9326753156011248537</T>
+		<T>9326753156011248536</T>
+		<T>9326753156011248535</T>
+		<T>9326753156011248534</T>
+		<T>9326754255522876754</T>
+		<T>9326754255522876755</T>
+		<T>9326754255522876752</T>
+		<T>9326754255522876753</T>
+		<T>9326754255522876758</T>
+		<T>9326754255522876759</T>
+		<T>9326754255522876756</T>
+	  </L>
+  <T n="career_name">0x8edc3272</T>
+  <T n="career_name_gender_neutral">0x8e75d122</T>
+  <V t="reference" n="goodbye_notification">
+    <T n="reference">110655</T>
+  </V>
+  <T p="InGame\UI\Icons\Career\Career_Business_Main.png" n="icon">2f7d0004:00000000:D1E451E88404A17C</T>
+  <T n="icon_high_res" p="InGame\UI\Icons\Career\Career_Business_hires.png">2f7d0004:00000000:97CA62B73C07985F</T>
+  <T p="InGame\UI\Icons\resource_icon_bkg.png" n="image">2f7d0004:00000000:6665077284098fa2</T>
+  <V t="enabled" n="knowledge_notification">
+    <V n="enabled" t="reference">
+      <T n="reference">110279</T>
+    </V>
+  </V>
+  	  <V n="overmax" t="enabled">
+		<U n="enabled">
+		  <T n="reward">9415807202554068662</T>
+		  <T n="salary_increase">10</T>
+		</U>
+	  </V>
+  </I>

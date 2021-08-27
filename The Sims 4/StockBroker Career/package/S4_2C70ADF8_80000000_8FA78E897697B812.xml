@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="CareerLevel" i="career_level" m="careers.career_tuning" n="careerLevels_StockBroker_StockBroker_Level6" s="10351398989585692690">
+  <L n="end_of_day_loot">
+    <T>163484</T>
+  </L>
+  <T n="aspiration">18411726915903213565</T>
+  <T n="ideal_mood">14639</T>
+  <L n="loot_on_join">
+    <T>99354</T>
+  </L>
+  <L n="loot_on_quit">
+    <T>250232</T>
+    <T>245770</T>
+    <T>254109</T>
+  </L>
+  <V t="simoleons_per_hour" n="pay_type">
+    <T n="simoleons_per_hour">600</T>
+  </V>
+  <U n="performance_metrics">
+    <T n="base_performance">60</T>
+	<T n="daily_assignment_performance">30</T>
+    <T n="missed_work_penalty">35</T>
+    <L n="mood_metrics" />
+	    <L n="tested_metrics">
+      <U>
+        <T n="performance_mod">-12</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>12840</T>
+                    <T>12848</T>
+                    <T>27320</T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="performance_mod">-8</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>12827</T>
+                    <T>12842</T>
+                    <T>12832</T>
+                    <T>12856</T>
+                    <T>12847</T>
+                    <T>27323</T>
+                    <T>27155</T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="performance_mod">-4</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>12831</T>
+                    <T>12835</T>
+                    <T>12853</T>
+                    <T>12857</T>
+                    <T>12858</T>
+                    <T>12829</T>
+                    <T>12855</T>
+                    <T>27321</T>
+                    <T>27154</T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="performance_mod">5</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>12830</T>
+                    <T>12836</T>
+                    <T>12838</T>
+                    <T>12839</T>
+                    <T>12841</T>
+                    <T>12845</T>
+                    <T>12851</T>
+                    <T>27107</T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="performance_mod">10</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>12814</T>
+                    <T>12852</T>
+                    <T>12850</T>
+                    <T>12846</T>
+                    <T>12834</T>
+                    <T>12844</T>
+                    <T>12854</T>
+                    <T>12843</T>
+                    <T>37939</T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="performance_mod">5</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>12836</T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="performance_mod">10</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V t="enabled" n="whitelist">
+                  <L n="enabled">
+                    <T>12852</T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+	  <U>
+        <T n="performance_mod">30</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>219082</T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="performance_mod">3</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>122957</T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="performance_mod">5</T>
+        <L n="tests">
+          <L>
+            <V t="bucks_perks_test">
+              <U n="bucks_perks_test">
+                <T n="bucks_perk">124106</T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+	  <U>
+        <T n="performance_mod">50</T>
+        <L n="tests">
+          <L>
+            <V t="bucks_perks_test">
+              <U n="bucks_perks_test">
+                <T n="bucks_perk">193735</T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="performance_mod">50</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>196719</T>
+                    <T>196740</T>
+                    <T>196741</T>
+                    <T>196742</T>
+                    <T>196743</T>
+                    <T>196744</T>
+                    <T>196745</T>
+                    <T>196746</T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+	  <U>
+        <T n="performance_mod">10</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>205007</T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </L>
+	  </U>
+  <T n="performance_stat">17258479795099718474</T>
+  <V t="enabled" n="promotion_audio_sting">
+    <U n="enabled">
+      <T n="audio" p="InGame\Audio\Stings\sting_career_progess.propx">39b2aa4a:00000000:c16f7f8c8e553337</T>
+    </U>
+  </V>
+  <T n="promotion_notification_text">0x7A93A2F2</T>
+  <T n="promotion_reward">9502752229271417414</T>
+  <T n="pto_per_day">0.25000</T>
+  <L n="simolean_trait_bonus">
+    <U>
+      <T n="bonus">10</T>
+      <T n="trait">27082</T>
+    </U>
+	<U>
+      <T n="bonus">100</T>
+      <T n="trait">196731</T>
+    </U>
+  </L>
+  <T n="title">0x6d9a7b70</T>
+  <T n="title_description">0x9f56e522</T>
+  <V t="enabled" n="tones">
+    <U n="enabled">
+      <L n="default_action_list">
+        <U>
+          <T n="default_action">76717</T>
+          <V n="default_action_test" t="enabled">
+            <L n="enabled">
+              <L>
+                <V t="trait">
+                  <U n="trait">
+                    <L n="whitelist_traits">
+                      <T>161625</T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </V>
+        </U>
+        <U>
+          <T n="default_action">76759</T>
+          <V n="default_action_test" t="enabled">
+            <L n="enabled">
+              <L>
+                <V t="trait">
+                  <U n="trait">
+                    <L n="whitelist_traits">
+                      <T>161626</T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </V>
+        </U>
+        <U>
+          <T n="default_action">75577</T>
+        </U>
+      </L>
+      <T n="leave_work_early">100837</T>
+      <L n="optional_actions">
+        <T>99731</T>
+        <T>99743</T>
+        <T>99724</T>
+        <T>99720</T>
+        <T>99739</T>
+        <T>99725</T>
+        <T>76717</T>
+        <T>76762</T>
+        <T>76759</T>
+		<T>75577</T>
+        <T>99746</T>
+		<T>247613</T>
+      </L>
+    </U>
+  </V>
+  <U n="wakeup_time">
+    <T n="hour">7</T>
+    <T n="minute">0</T>
+  </U>
+  <U n="work_schedule">
+    <L n="schedule_entries">
+      <U>
+        <U n="days_available">
+          <T n="0 SUNDAY">False</T>
+          <T n="1 MONDAY">True</T>
+          <T n="2 TUESDAY">True</T>
+          <T n="3 WEDNESDAY">True</T>
+          <T n="4 THURSDAY">True</T>
+          <T n="5 FRIDAY">True</T>
+          <T n="6 SATURDAY">False</T>
+        </U>
+        <T n="duration">8</T>
+		<U n="start_time">
+          <T n="hour">9</T>
+        </U>
+      </U>
+    </L>
+  </U>
+</I>

@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SuperInteraction" i="interaction" m="interactions.base.super_interaction" n="phone_TakePTO_StockBroker" s="10515634417626094415">
+  <V t="enabled" n="_affordance_key_override_for_autonomy">
+    <T n="enabled">Phone_Fun</T>
+  </V>
+  <L n="_constraints">
+    <U>
+      <L n="constraints">
+        <U>
+          <V n="value" t="water_depth">
+            <U n="water_depth">
+              <V t="enabled" n="max_water_depth">
+                <T n="enabled">0.5</T>
+              </V>
+            </U>
+          </V>
+        </U>
+      </L>
+    </U>
+	<U>
+      <L n="constraints">
+        <U>
+          <V n="value" t="current_position" />
+        </U>
+      </L>
+    </U>
+  </L>
+  <V t="resource_key" n="_icon">
+    <U n="resource_key">
+      <T n="key" p="InGame\UI\Icons\InteractionQueue\IconQueueCellPhone.png">2f7d0004:00000000:6189ced9570b8609</T>
+    </U>
+  </V>
+  <V t="enabled" n="_saveable" />
+  <T n="allow_autonomous">False</T>
+  <T n="attention_cost">1.24</T>
+  <V t="flexible_length" n="basic_content">
+    <U n="flexible_length">
+      <L n="conditional_actions">
+        <V t="list_reference">
+          <T n="list_reference">40705</T>
+        </V>
+        <V t="literal">
+          <U n="literal">
+            <L n="conditions">
+              <V t="time_based">
+                <U n="time_based">
+                  <T n="max_time">7</T>
+                  <T n="min_time">5</T>
+                </U>
+              </V>
+            </L>
+            <E n="interaction_action">EXIT_NATURALLY</E>
+          </U>
+        </V>
+      </L>
+      <V n="content" t="looping_content">
+        <U n="looping_content">
+          <U n="animation_ref">
+            <T n="factory">11702</T>
+            <U n="overrides">
+              <L n="props">
+                <U>
+                  <T n="key">cellphone</T>
+                  <U n="value">
+                    <T n="definition">145433</T>
+                    <T n="from_actor">x</T>
+                    <L n="states_to_override">
+                      <T>149289</T>
+                      <T>149290</T>
+                    </L>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </U>
+        </U>
+      </V>
+	  <V t="enabled" n="periodic_stat_change" />
+      <T n="start_autonomous_inertial">False</T>
+    </U>
+  </V>
+  <L n="basic_extras">
+    <V t="loot">
+      <U n="loot">
+        <L n="loot_list">
+          <T>149368</T>
+        </L>
+        <V t="at_beginning" n="timing" />
+      </U>
+    </V>
+	<V t="loot">
+      <U n="loot">
+        <L n="loot_list">
+          <T>163544</T>
+        </L>
+        <V t="at_beginning" n="timing" />
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff_type">
+          <T n="buff_type">163474</T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>161757</T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+  </L>
+  <T n="category">193209</T>
+  <V t="disabled" n="content_score" />
+  <T n="display_name">0x3e4534f5</T>
+  <V t="testable" n="display_name_overrides">
+    <U n="testable">
+      <L n="overrides">
+        <U>
+          <V t="disabled" n="new_display_name" />
+          <V t="enabled" n="new_pie_menu_icon">
+            <V n="enabled" t="resource_key">
+              <U n="resource_key">
+                <T n="key" p="InGame\UI\Icons\PieMenu\Interactions\icon_pieMenu_grounded.png">2f7d0004:00000000:1bcafb280c1f78cd</T>
+              </U>
+            </V>
+          </V>
+          <V t="enabled" n="parent_name">
+            <T n="enabled">0xB882229F</T>
+          </V>
+          <L n="test">
+            <L>
+              <V t="buff">
+                <U n="buff">
+                  <V n="whitelist" t="enabled">
+                    <L n="enabled">
+                      <T>161757</T>
+                    </L>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </L>
+    </U>
+  </V>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <V t="from_participant" n="objects">
+            <U n="from_participant">
+              <E n="participant">Actor</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <V t="from_participant" n="objects">
+            <U n="from_participant">
+              <E n="participant">Object</E>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>Interaction_Super</E>
+    <E>Interaction_All</E>
+  </L>
+  <V n="outcome" t="single">
+    <U n="single">
+      <U n="actions">
+        <L n="basic_extras">
+          <V t="notification">
+            <U n="notification">
+              <V n="dialog" t="single">
+                <V n="single" t="literal">
+                  <U n="literal">
+                    <V t="enabled" n="icon">
+                      <V n="enabled" t="resource_key">
+                        <U n="resource_key">
+                          <T p="InGame\UI\Icons\Career\Career_Business.png" n="key">2f7d0004:00000000:D1E451E88404A17C</T>
+                        </U>
+                      </V>
+                    </V>
+                    <V t="enabled" n="secondary_icon">
+                      <V t="participant" n="enabled" />
+                    </V>
+                    <V t="single" n="text">
+                      <T n="single">0x7D0457C4</T>
+                    </V>
+                  </U>
+                </V>
+              </V>
+            </U>
+          </V>
+        </L>
+        <L n="loot_list">
+          <T>10039703544407080115</T>
+          <T>111106</T>
+        </L>
+      </U>
+    </U>
+  </V>
+  <U n="progress_bar_enabled">
+    <T n="bar_enabled">False</T>
+  </U>
+  <E n="scoring_priority">NORMAL</E>
+  <T n="subaction_selection_weight">1</T>
+  <V t="reference" n="super_affordance_compatibility">
+    <T n="reference">76447</T>
+  </V>
+  <E n="target_type">ACTOR</E>
+  <L n="test_autonomous">
+    <L>
+      <V t="location">
+        <U n="location">
+          <U n="location_tests">
+            <V n="is_venue_type" t="enabled">
+              <U n="enabled">
+                <T n="negate">True</T>
+                <T n="venue_type">111611</T>
+              </U>
+            </V>
+          </U>
+        </U>
+      </V>
+    </L>
+  </L>
+  <L n="test_globals">
+	<V t="test_set_reference">
+      <T n="test_set_reference">237832</T>
+    </V>
+    <V t="sim_info">
+      <U n="sim_info">
+        <V t="specified" n="ages" />
+		<V t="specified" n="species">
+          <U n="specified">
+            <L n="species">
+              <E />
+            </L>
+          </U>
+        </V>
+        <E n="who">Actor</E>
+      </U>
+    </V>
+    <V t="career_test">
+      <U n="career_test">
+        <V n="test_type" t="career_reference">
+          <U n="career_reference">
+            <V t="specific_career" n="career">
+              <T n="specific_career">9681261156658954349</T>
+            </V>
+          </U>
+        </V>
+      </U>
+    </V>
+    <V t="career_test">
+      <U n="career_test">
+        <V n="test_type" t="time_until_work">
+          <U n="time_until_work">
+            <T n="career">9681261156658954349</T>
+          </U>
+        </V>
+      </U>
+    </V>
+    <V t="career_test">
+      <U n="career_test">
+        <T n="negate">False</T>
+        <V t="time_off" n="test_type" />
+      </U>
+    </V>
+	<V t="career_test">
+      <U n="career_test">
+        <T n="negate">True</T>
+        <V t="career_reference" n="test_type">
+          <U n="career_reference">
+            <V n="career" t="specific_career">
+              <T n="specific_career">189135</T>
+            </V>
+          </U>
+        </V>
+      </U>
+    </V>
+	<V t="travel_group">
+      <U n="travel_group">
+        <T n="include_household_travel_group">True</T>
+        <V t="in_travel_group" n="test_type">
+          <U n="in_travel_group">
+            <T n="exists">False</T>
+          </U>
+        </V>
+      </U>
+    </V>
+    <V t="test_set_reference">
+      <T n="test_set_reference">111347</T>
+    </V>
+    <V t="career_test">
+      <U n="career_test">
+        <V t="pto_amount" n="test_type">
+          <U n="pto_amount">
+            <T n="career">9681261156658954349</T>
+            <U n="required_pto_available">
+              <T n="value">1</T>
+            </U>
+          </U>
+        </V>
+        <V t="enabled" n="tooltip">
+          <T n="enabled">0xB9CD9707</T>
+        </V>
+      </U>
+    </V>
+  </L>
+  <T n="time_overhead">30</T>
+</I>

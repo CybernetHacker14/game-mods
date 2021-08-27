@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SimReward" i="reward" m="rewards.reward" n="reward_Career_StockBroker_StockBroker_Level_26" s="10143489635205473808">
+  <T p="InGame\UI\Icons\Headlines\Final\headline_careerpromotion.png" n="icon">2f7d0004:00000000:D1E451E88404A17C</T>
+  <T n="name">0xac5e04e9</T>
+  <V t="enabled" n="reward_description">
+    <T n="enabled">0x3fbbd383</T>
+  </V>
+  <L n="rewards">
+    <V t="specific_reward">
+      <V n="specific_reward" t="money">
+        <U n="money">
+          <V n="money" t="literal">
+            <U n="literal">
+              <T n="value">250000</T>
+            </U>
+          </V>
+        </U>
+      </V>
+    </V>
+  </L>
+</I>

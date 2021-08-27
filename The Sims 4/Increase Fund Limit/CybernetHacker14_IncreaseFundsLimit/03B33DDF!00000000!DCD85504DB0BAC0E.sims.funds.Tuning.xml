@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<M n="sims.funds" s="15913562762656853006">
+  <C n="FundsTuning">
+    <L n="UNAFFORDABLE_TOOLTIPS">
+      <U>
+        <E n="key">BUCKS</E>
+        <T n="value">0xF4CAE5B<!--{0.SimFirstName} can't afford this.--></T>
+      </U>
+      <U>
+        <E n="key">BUSINESS</E>
+        <T n="value">0x4E420BAB<!--Insufficient business funds for this.--></T>
+      </U>
+      <U>
+        <E n="key">HOUSEHOLD</E>
+        <T n="value">0xE601B7ED<!--{0.SimFirstName} can't afford this.--></T>
+      </U>
+      <U>
+        <E n="key">RETAIL</E>
+        <T n="value">0xAD0DFFE1<!--Insufficient retail funds for this. --></T>
+      </U>
+    </L>
+  </C>
+  <C n="_Funds">
+    <T n="MAX_FUNDS">9999999999</T>
+  </C>
+</M>
