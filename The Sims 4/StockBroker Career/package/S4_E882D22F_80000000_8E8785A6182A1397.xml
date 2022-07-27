@@ -121,6 +121,18 @@
             <E n="interaction_action">EXIT_CANCEL</E>
           </U>
         </V>
+		<V t="literal">
+          <U n="literal">
+            <L n="conditions">
+              <V t="buff_based">
+                <U n="buff_based">
+                  <T n="buff">285807</T>
+                </U>
+              </V>
+            </L>
+            <E n="interaction_action">EXIT_CANCEL</E>
+          </U>
+        </V>
       </L>
       <V n="content" t="staging_content">
         <U n="staging_content">
@@ -663,6 +675,50 @@
                     <T n="value">-100</T>
                   </U>
                 </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+	<V t="loot">
+      <U n="loot">
+        <L n="loot_list">
+          <T>259655</T>
+        </L>
+        <V n="timing" t="at_beginning" />
+      </U>
+    </V>
+	<V t="buff">
+      <U n="buff">
+        <U n="buff_type">
+          <T n="buff_type">259618</T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <L n="whitelist_traits">
+                  <T>124879</T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+	<V t="buff">
+      <U n="buff">
+        <U n="buff_type">
+          <T n="buff_type">290555</T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <L n="whitelist_traits">
+                  <T>285387</T>
+                </L>
               </U>
             </V>
           </L>
@@ -1617,6 +1673,13 @@
     <V t="identity">
       <U n="identity">
         <T n="subjects_match">True</T>
+      </U>
+    </V>
+	<V t="buff">
+      <U n="buff">
+        <L n="blacklist">
+          <T>285807</T>
+        </L>
       </U>
     </V>
     <V t="buff">
