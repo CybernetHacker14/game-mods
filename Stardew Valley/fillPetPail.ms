@@ -1,10 +1,6 @@
 import "coreUtils"
 ensureImport "navigationUtils"
-
-me.useWateringCan = function
-    me.select 2
-    me.useTool
-end function
+ensureImport "toolUtils"
 
 onMove = function(x,y)
   // Do nothing
@@ -31,7 +27,7 @@ end function
 
 main = function
   if me.isBot != 0 and me.name == "Farmtronics Bot 0" then
-    print "Bot is starting"
+    print "Bot 0 is starting"
     traverseWaypoints
   end if
 end function

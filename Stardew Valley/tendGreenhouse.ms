@@ -1,5 +1,6 @@
 import "coreUtils"
 ensureImport "navigationUtils"
+ensureImport "toolUtils"
 
 onMove = function(x,y)
   // Do nothing
@@ -12,22 +13,17 @@ useHoeAndWaterGreenhouse = function(x,y)
     f = me.facing
     navigationUtils.moveTo(10,8,@onMove)
     navigationUtils.rotateToDir(0)
-    me.select 2
-    me.useTool
-    print xTemp + " " + yTemp
+    me.useWateringCan
     navigationUtils.moveTo(xTemp,yTemp,@onMove)
     navigationUtils.rotateToDir(f)
   end if
-  me.select 1
-  me.useTool
-  me.select 2
-  me.useTool
+  me.useHoe
+  me.useWateringCan
 end function
 
 main = function
   if me.isBot != 0 and me.name == "Farmtronics Bot 1" then
-    print "Bot is starting"
-    // navigationUtils.moveInGrid(44,19,50,25,@useHoeAndWater)
+    print "Bot 1 is starting"
     navigationUtils.moveInGrid(4,10,15,19,@useHoeAndWaterGreenhouse)
   end if
 end function
