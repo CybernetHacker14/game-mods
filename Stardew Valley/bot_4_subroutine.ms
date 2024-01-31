@@ -1,6 +1,7 @@
 import "coreUtils"
 ensureImport "navigationUtils"
 ensureImport "toolUtils"
+ensureImport "tileUtils"
 ensureImport "math"
 
 onMove = function(x,y)
@@ -20,8 +21,9 @@ useHoeAndWaterFarm001_001 = function(x,y)
     navigationUtils.moveTo(xTemp,yTemp,@onMove)
     navigationUtils.rotateToDir(f)
   end if
-  me.useHoe
-  me.useWateringCan
+  if not tileUtils.isTileCrop(me.ahead) then me.useHoe;
+  if tileUtils.isTileDry(me.ahead) then me.useWateringCan;
+  if tileUtils.isTileCropHarvestable(me.ahead) then me.harvest;
 end function
 
 useHoeAndWaterFarm001_002 = function(x,y)
@@ -37,8 +39,9 @@ useHoeAndWaterFarm001_002 = function(x,y)
     navigationUtils.moveTo(xTemp,yTemp,@onMove)
     navigationUtils.rotateToDir(f)
   end if
-  me.useHoe
-  me.useWateringCan
+  if not tileUtils.isTileCrop(me.ahead) then me.useHoe;
+  if tileUtils.isTileDry(me.ahead) then me.useWateringCan;
+  if tileUtils.isTileCropHarvestable(me.ahead) then me.harvest;
 end function
 
 useHoeAndWaterFarm001_003 = function(x,y)
@@ -54,8 +57,9 @@ useHoeAndWaterFarm001_003 = function(x,y)
     navigationUtils.moveTo(xTemp,yTemp,@onMove)
     navigationUtils.rotateToDir(f)
   end if
-  me.useHoe
-  me.useWateringCan
+  if not tileUtils.isTileCrop(me.ahead) then me.useHoe;
+  if tileUtils.isTileDry(me.ahead) then me.useWateringCan;
+  if tileUtils.isTileCropHarvestable(me.ahead) then me.harvest;
 end function
 
 useHoeAndWaterFarm001_004 = function(x,y)
@@ -71,8 +75,9 @@ useHoeAndWaterFarm001_004 = function(x,y)
     navigationUtils.moveTo(xTemp,yTemp,@onMove)
     navigationUtils.rotateToDir(f)
   end if
-  me.useHoe
-  me.useWateringCan
+  if not tileUtils.isTileCrop(me.ahead) then me.useHoe;
+  if tileUtils.isTileDry(me.ahead) then me.useWateringCan;
+  if tileUtils.isTileCropHarvestable(me.ahead) then me.harvest;
 end function
 
 main = function

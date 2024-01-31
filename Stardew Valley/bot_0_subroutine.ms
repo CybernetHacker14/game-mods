@@ -13,6 +13,12 @@ traverseWaypoints = function
   navigationUtils.moveTo(73,10,@onMove)
   navigationUtils.moveTo(73,11,@onMove)
   navigationUtils.moveTo(76,11,@onMove)
+  navigationUtils.moveTo(76,13,@onMove)
+  navigationUtils.rotateToDir(1)
+  me.useWateringCan
+  navigationUtils.moveTo(76,14,@onMove)
+  navigationUtils.rotateToDir(1)
+  me.useWateringCan
   navigationUtils.moveTo(76,29,@onMove)
   navigationUtils.rotateToDir(3)
   me.useWateringCan
