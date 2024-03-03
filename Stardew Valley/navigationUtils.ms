@@ -101,8 +101,11 @@ moveInGrid = function(xStart, yStart, xEnd, yEnd, func)
 		if f == 2 then aheadX = x; aheadY = y+1
 		if f == 3 then aheadX = x-1; aheadY = y
 
-    if aheadX == xStart and abs(aheadY-yStart) == 1 or
-      aheadY == yStart and abs(aheadY-xStart) == 1 then
+    print aheadX
+    print aheadY
+
+    if aheadX == xStart and abs(aheadY-yStart) <= 1 or
+      aheadY == yStart and abs(aheadX-xStart) <= 1 then
       func(x,y)
     end if
   end function
