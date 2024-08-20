@@ -1,14 +1,14 @@
-isTileDry = function(tile)
+isDry = function(tile)
   if tile == null then return false
   return tile.dry
 end function
 
-isTileCrop = function(tile)
+isCrop = function(tile)
   if tile == null then return false
   return tile.crop
 end function
 
-isTileCropHarvestable = function(tile)
+isHarvestable = function(tile)
   if tile == null then return false
   return tile.crop and tile.crop.harvestable
 end function

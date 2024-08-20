@@ -15,6 +15,6 @@ loop = function(value, min, max)
   return min + value
 end function
 
-areCoordinatesInGrid = function(x,y,xStart,yStart,xEnd,yEnd)
+areCoordinatesInGrid = function(x, y, xStart, yStart, xEnd, yEnd)
   return x >= xStart and x <= xEnd and y >= yStart and y <= yEnd
 end function
